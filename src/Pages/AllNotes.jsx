@@ -7,7 +7,6 @@ import NoteCard from '../Components/NoteCard'
 import Preview from '../Components/Preview'
 import {useHotkeys} from 'react-hotkeys-hook'
 
-
 function AllNotes() {
    
     const [allNotes , setAllNotes] = useState([])
