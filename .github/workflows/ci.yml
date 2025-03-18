@@ -1,4 +1,4 @@
-name: For Major Project CI/CD Pipeline
+name: For Major Project1 CI/CD Pipeline
 
 on:
   push:
