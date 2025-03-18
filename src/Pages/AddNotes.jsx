@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css'; // Import Quill's snow theme CSS
-import { addNewNotes } from '../Redux/NotesSlice/NoteSlice';
+import { addNewNotes } from '../Redux/NotesSlice/NoteSlice';  
 import { useHotkeys } from 'react-hotkeys-hook';
 
 function AddNotes() {
