@@ -39,7 +39,7 @@ function AllNotes() {
     <div className='flex  '>
     <div>
     <div>
-      <div></div>
+      <div>Hi</div>
       <input onChange={handleChange} placeholder="Search" className='border-2 p-2 m-5 flex justify-items-center'></input>
     </div>
     <div className='h-screen w-full flex flex-col' style={{gap : "5rem"}} >

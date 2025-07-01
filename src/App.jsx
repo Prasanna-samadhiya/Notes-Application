@@ -9,14 +9,9 @@ import AllNotes from './Pages/AllNotes'
 import Favourites from './Pages/Favourites'
 import Trash from './Pages/Trash'
 import AddNotes from './Pages/AddNotes'
-import NavSidebar from './Components/NavSidebar'
-import Preview from './Components/Preview'
 import Categories from './Pages/Categories'
-import BottomBar from './Components/settings/BottomBar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
       <>
         <Router>
